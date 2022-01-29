@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk8u312-b07-jre\bin\java.exe" -Xmx8G -Xms8G -jar forge-1.16.5-36.2.23.jar nogui

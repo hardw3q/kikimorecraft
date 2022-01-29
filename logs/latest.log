@@ -1,0 +1,215 @@
+[29џэт2022 11:08:42.366] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.23, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[29џэт2022 11:08:42.369] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_312 by Temurin
+[29џэт2022 11:08:42.856] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[29џэт2022 11:08:42.950] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/G:/minecraft%20mod%20server/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[29џэт2022 11:08:45.734] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [vazkii.patchouli.common.MixinConnector]
+[29џэт2022 11:08:45.752] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[29џэт2022 11:08:53.493] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod META-INF/fieldtomethodtransformers.js function bucketitem
+java.lang.IllegalStateException: Field field_77876_a is not private and an instance field
+	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:260) ~[coremods-4.0.6.jar:?]
+	at jdk.nashorn.internal.scripts.Script$Recompilation$16$1352A$\^eval\_.initializeCoreMod#transformer-2(<eval>:35) ~[?:?]
+	at jdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:639) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:494) ~[nashorn.jar:?]
+	at jdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:393) ~[nashorn.jar:?]
+	at jdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:117) ~[nashorn.jar:?]
+	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:18) ~[coremods-4.0.6.jar:4.0.6+14+master.c21a551]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:18) ~[coremods-4.0.6.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:10) ~[coremods-4.0.6.jar:?]
+	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:38) ~[coremods-4.0.6.jar:?]
+	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:117) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader$DelegatedClassLoader.findClass(TransformingClassLoader.java:265) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:136) ~[modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.loadClass(TransformingClassLoader.java:98) ~[modlauncher-8.0.9.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_312]
+	at net.minecraft.util.registry.Registry.func_218353_F(Registry.java:159) ~[?:?]
+	at net.minecraft.util.registry.Registry.lambda$static$51(Registry.java:466) ~[?:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[?:1.8.0_312]
+	at net.minecraft.util.registry.Registry.<clinit>(Registry.java:465) ~[?:?]
+	at net.minecraft.util.registry.Bootstrap.func_151354_b(Bootstrap.java:38) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:92) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_312]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_312]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_312]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_312]
+	at net.minecraftforge.fml.loading.FMLServerLaunchProvider.lambda$launchService$0(FMLServerLaunchProvider.java:51) ~[forge-1.16.5-36.2.23.jar:36.2]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.9.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.9.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.runLauncher(ServerMain.java:63) [forge-1.16.5-36.2.23.jar:?]
+	at net.minecraftforge.server.ServerMain$Runner.access$100(ServerMain.java:60) [forge-1.16.5-36.2.23.jar:?]
+	at net.minecraftforge.server.ServerMain.main(ServerMain.java:57) [forge-1.16.5-36.2.23.jar:?]
+[29џэт2022 11:08:56.729] [modloading-worker-3/INFO] [Dynmap/]: [Dynmap] Mod Support API available
+[29џэт2022 11:08:57.353] [modloading-worker-1/INFO] [REI/]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIServerPlugin
+[29џэт2022 11:08:57.561] [modloading-worker-1/INFO] [REI/]: Registered plugin provider DefaultPlugin [roughlyenoughitems] for REIPlugin
+[29џэт2022 11:08:57.860] [modloading-worker-1/INFO] [REI/]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIServerPlugin
+[29џэт2022 11:08:58.056] [modloading-worker-1/INFO] [REI/]: Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REIPlugin
+[29џэт2022 11:08:58.286] [modloading-worker-1/INFO] [REI/]: Registered plugin provider JEIExtraPlugin [roughlyenoughitems] for REIServerPlugin
+[29џэт2022 11:08:58.509] [modloading-worker-1/INFO] [REI/]: Registered plugin provider JEIExtraPlugin [roughlyenoughitems] for REIPlugin
+[29џэт2022 11:08:58.301] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.23, for MC 1.16.5 with MCP 20210115.111550
+[29џэт2022 11:08:58.917] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.23 Initialized
+[29џэт2022 11:09:03.648] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `genetics` for name `empty`, expected `forestry`. This could be a intended override, but in most cases indicates a broken mod.
+[29џэт2022 11:09:05.883] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 119 ms
+[29џэт2022 11:09:06.173] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for forestry:cart_apiary, use EntityAttributeCreationEvent instead.
+[29џэт2022 11:09:06.176] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for forestry:cart_bee_house, use EntityAttributeCreationEvent instead.
+[29џэт2022 11:09:06.177] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for forestry:butterfly, use EntityAttributeCreationEvent instead.
+[29џэт2022 11:09:06.872] [modloading-worker-0/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[29џэт2022 11:09:06.888] [modloading-worker-1/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[29џэт2022 11:09:06.945] [modloading-worker-2/INFO] [Mekanism/]: Version 10.1.1 initializing...
+[29џэт2022 11:09:07.088] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[29џэт2022 11:09:07.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.16.5/changelog.json
+[29џэт2022 11:09:07.127] [modloading-worker-2/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[29џэт2022 11:09:07.314] [modloading-worker-2/INFO] [Mekanism/]: Loading complete.
+[29џэт2022 11:09:07.354] [modloading-worker-2/INFO] [Mekanism/]: Mod loaded.
+[29џэт2022 11:09:07.477] [modloading-worker-1/INFO] [AE2:C/]: Post Initialization ( started )
+[29џэт2022 11:09:07.618] [modloading-worker-1/INFO] [AE2:C/]: Post Initialization ( ended after 146ms )
+[29џэт2022 11:09:07.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: UP_TO_DATE Current: 1.16.5-5.0.7-143 Target: null
+[29џэт2022 11:09:07.999] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29џэт2022 11:09:08.620] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.23 Target: null
+[29џэт2022 11:09:08.653] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/master/cofh_core/update.json
+[29џэт2022 11:09:09.072] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: AHEAD Current: 1.4.2.9 Target: null
+[29џэт2022 11:09:09.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Starting version check at https://maxhenkel.de/update/reap.json
+[29џэт2022 11:09:09.678] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [reap] Found status: AHEAD Current: 1.16.5-1.0.1 Target: null
+[29џэт2022 11:09:09.714] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
+[29џэт2022 11:09:09.894] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: AHEAD Current: 1.4.3.10 Target: null
+[29џэт2022 11:09:09.929] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.16.5
+[29џэт2022 11:09:10.453] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29џэт2022 11:09:11.153] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, duration] and [cofh, ignite, targets] with inputs: [0, -123, 123]
+[29џэт2022 11:09:11.157] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: OUTDATED Current: 4.0.2.429 Target: 4.0.6.443
+[29џэт2022 11:09:11.271] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zerocore] Starting version check at https://raw.githubusercontent.com/ZeroNoRyouki/ZeroCore2/master/update.json
+[29џэт2022 11:09:11.204] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, targets] and [cofh, ignite, duration] with inputs: [0123]
+[29џэт2022 11:09:11.315] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invis, flag] and [cofh, invis, targets] with inputs: [true, false]
+[29џэт2022 11:09:11.320] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invuln, flag] and [cofh, invuln, targets] with inputs: [true, false]
+[29џэт2022 11:09:11.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [zerocore] Found status: UP_TO_DATE Current: 1.16.5-2.1.9 Target: null
+[29џэт2022 11:09:11.339] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29џэт2022 11:09:11.355] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bigreactors] Starting version check at https://raw.githubusercontent.com/ZeroNoRyouki/ExtremeReactors2/master/update.json
+[29џэт2022 11:09:11.356] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29џэт2022 11:09:11.357] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29џэт2022 11:09:11.358] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[29џэт2022 11:09:11.361] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[29џэт2022 11:09:11.368] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.23-universal.jar, Dynmap-3.2.1-forge-1.16.5.jar, OPF-1.16.X-v1.jar, ImmersiveEngineering-1.16.5-5.0.7-143.jar, MekanismTools-1.16.5-10.1.1.456.jar, Mekanism-1.16.5-10.1.1.456.jar, cofh_core-1.16.5-1.4.2.9.jar, reap-1.16.5-1.0.1.jar, thermal_foundation-1.16.5-1.4.3.10.jar, thermal_expansion-1.16.5-1.4.2.4.jar, CodeChickenLib-1.16.5-4.0.2.429-universal.jar, Patchouli-1.16.4-53.2.jar, ironchest-1.16.5-11.2.21.jar, forestry-1.16.5-6.0.10.jar, appliedenergistics2-8.4.7.jar, ZeroCore2-1.16.5-2.1.9.jar, ExtremeReactors2-1.16.5-2.0.38.jar, MekanismGenerators-1.16.5-10.1.1.456.jar, architectury-1.28.48.jar, cloth-config-4.13.49-forge.jar, RoughlyEnoughItems-6.4.411.jar
+[29џэт2022 11:09:11.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bigreactors] Found status: UP_TO_DATE Current: 1.16.5-2.0.38 Target: null
+[29џэт2022 11:09:13.459] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/redstoneport_alt as it's serializer returned null
+[29џэт2022 11:09:13.467] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/casing_upgrade_alt as it's serializer returned null
+[29џэт2022 11:09:13.476] [Worker-Main-6/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:compat/appliedenergistics2/ae2_ender_pearl_dust_convert
+com.google.gson.JsonSyntaxException: Unknown item tag 'thermal:ender_pearl_dust'
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:223) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199568_a(ShapelessRecipe.java:95) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199425_a_(ShapelessRecipe.java:80) ~[?:?]
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.func_199425_a_(ShapelessRecipe.java:76) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_312]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_312]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_312]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:543) [?:1.8.0_312]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:667) [?:1.8.0_312]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) [?:1.8.0_312]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488) [?:1.8.0_312]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1609) [?:1.8.0_312]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1596) [?:1.8.0_312]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289) [?:1.8.0_312]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_312]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_312]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175) [?:1.8.0_312]
+[29џэт2022 11:09:13.483] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe forestry:foresters_manual_sapling as it's serializer returned null
+[29џэт2022 11:09:13.499] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe forestry:habitat_screen as it's serializer returned null
+[29џэт2022 11:09:13.524] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/shaft_alt as it's serializer returned null
+[29џэт2022 11:09:13.531] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/casing_alt as it's serializer returned null
+[29џэт2022 11:09:13.540] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/controlrod_alt as it's serializer returned null
+[29џэт2022 11:09:13.554] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe forestry:foresters_manual_butterfly as it's serializer returned null
+[29џэт2022 11:09:13.602] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/fuelrod_alt_ingots_uranium as it's serializer returned null
+[29џэт2022 11:09:13.715] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/computerport_alt as it's serializer returned null
+[29џэт2022 11:09:13.749] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/blade_alt as it's serializer returned null
+[29џэт2022 11:09:13.770] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/bearing_alt as it's serializer returned null
+[29џэт2022 11:09:13.781] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/redstoneport_alt as it's serializer returned null
+[29џэт2022 11:09:13.797] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe forestry:foresters_manual_honeydrop as it's serializer returned null
+[29џэт2022 11:09:13.818] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/fluidaccessport_alt as it's serializer returned null
+[29џэт2022 11:09:13.827] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/fuelrod_alt_ingots_yellorium as it's serializer returned null
+[29џэт2022 11:09:13.850] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/casing_upgrade_alt as it's serializer returned null
+[29џэт2022 11:09:13.863] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe forestry:portable_alyzer as it's serializer returned null
+[29џэт2022 11:09:13.868] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:turbine/reinforced/computerport_alt as it's serializer returned null
+[29џэт2022 11:09:13.873] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/casing_alt as it's serializer returned null
+[29џэт2022 11:09:13.878] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Skipping loading recipe bigreactors:reactor/reinforced/solidaccessport_alt as it's serializer returned null
+[29џэт2022 11:09:13.880] [Worker-Main-6/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 95 recipes
+[29џэт2022 11:09:14.951] [Worker-Main-6/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1626 advancements
+[29џэт2022 11:09:15.033] [Worker-Main-6/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 73 milliseconds
+[29џэт2022 11:09:15.082] [Worker-Main-6/INFO] [REI/]: Reloading Plugin Manager [REIPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], JEIExtraPlugin [roughlyenoughitems], DefaultPlugin [roughlyenoughitems]
+[29џэт2022 11:09:15.105] [Worker-Main-6/INFO] [REI/]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 28ms.
+[29џэт2022 11:09:15.113] [Worker-Main-6/INFO] [REI/]: Reloading Plugin Manager [REIServerPlugin] stage [START], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], JEIExtraPlugin [roughlyenoughitems], DefaultPlugin [roughlyenoughitems]
+[29џэт2022 11:09:15.115] [Worker-Main-6/INFO] [REI/]: Reloaded Plugin Manager [REIServerPlugin] with 0 menu infos in 2ms.
+[29џэт2022 11:09:15.126] [Worker-Main-6/INFO] [REI/]: Reloading Plugin Manager [REIPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], JEIExtraPlugin [roughlyenoughitems], DefaultPlugin [roughlyenoughitems]
+[29џэт2022 11:09:15.253] [Worker-Main-6/INFO] [REI/]: Reloaded Plugin Manager [REIPlugin] with 2 entry types, 5 item comparators, 0 fluid comparators and 2 fluid support providers in 128ms.
+[29џэт2022 11:09:15.277] [Worker-Main-6/INFO] [REI/]: Reloading Plugin Manager [REIServerPlugin] stage [END], registered 3 plugins: DefaultRuntimePlugin [roughlyenoughitems], JEIExtraPlugin [roughlyenoughitems], DefaultPlugin [roughlyenoughitems]
+[29џэт2022 11:09:15.294] [Worker-Main-6/INFO] [REI/]: Reloaded Plugin Manager [REIServerPlugin] with 5 menu infos in 19ms.
+[29џэт2022 11:09:15.325] [Worker-Main-6/INFO] [immersiveengineering/]: Recipes for potions: minecraft:invisibility, minecraft:water_breathing, minecraft:night_vision, minecraft:strong_strength, minecraft:harming, minecraft:long_regeneration, minecraft:long_night_vision, minecraft:strong_regeneration, minecraft:swiftness, minecraft:long_water_breathing, minecraft:strong_healing, minecraft:long_turtle_master, minecraft:strong_slowness, minecraft:long_swiftness, minecraft:long_leaping, minecraft:strength, minecraft:strong_harming, minecraft:leaping, minecraft:slow_falling, minecraft:weakness, minecraft:mundane, minecraft:fire_resistance, minecraft:regeneration, minecraft:strong_swiftness, minecraft:long_strength, minecraft:long_weakness, minecraft:strong_poison, minecraft:long_invisibility, minecraft:thick, minecraft:healing, minecraft:long_slow_falling, minecraft:long_poison, minecraft:slowness, minecraft:long_fire_resistance, minecraft:poison, minecraft:strong_turtle_master, minecraft:awkward, minecraft:long_slowness, minecraft:turtle_master, minecraft:strong_leaping, minecraft:water
+[29џэт2022 11:09:18.079] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[29џэт2022 11:09:18.082] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29џэт2022 11:09:18.083] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29џэт2022 11:09:18.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29џэт2022 11:09:18.189] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29џэт2022 11:09:18.229] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[29џэт2022 11:09:18.637] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29џэт2022 11:09:18.638] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29џэт2022 11:09:18.639] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29џэт2022 11:09:18.640] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29џэт2022 11:09:18.951] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29џэт2022 11:09:19.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29џэт2022 11:09:20.380] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29џэт2022 11:09:20.383] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29џэт2022 11:09:20.384] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29џэт2022 11:09:20.841] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[29џэт2022 11:09:22.198] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2920 ms
+[29џэт2022 11:09:22.200] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.534s)! For help, type "help"
+[29џэт2022 11:09:22.377] [Server thread/INFO] [Dynmap/]: [Dynmap] Added 1 custom biome mappings
+[29џэт2022 11:09:22.388] [Server thread/INFO] [Dynmap/]: [Dynmap] Using ops.txt for access control
+[29џэт2022 11:09:22.666] [Server thread/INFO] [Dynmap/]: [Dynmap] Register commands
+[29џэт2022 11:09:22.917] [Server thread/INFO] [Dynmap/]: [Dynmap] Mod Support processing completed
+[29џэт2022 11:09:23.654] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 25 shaders.
+[29џэт2022 11:09:23.751] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 82 perspectives.
+[29џэт2022 11:09:23.877] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 22 lightings.
+[29џэт2022 11:09:23.969] [Server thread/INFO] [Dynmap/]: [Dynmap] Starting enter/exit processing
+[29џэт2022 11:09:24.222] [Dynmap Render Thread/INFO] [Dynmap/]: [Dynmap] Finish marker initialization
+[29џэт2022 11:09:24.523] [Server thread/INFO] [Dynmap/]: [Dynmap] Web server started on address 0.0.0.0:80
+[29џэт2022 11:09:24.527] [Server thread/INFO] [Dynmap/]: [Dynmap] version 3.2.1-531 is enabled - core version 3.2.1-531
+[29џэт2022 11:09:24.538] [Server thread/INFO] [Dynmap/]: [Dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[29џэт2022 11:09:24.539] [Server thread/INFO] [Dynmap/]: [Dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[29џэт2022 11:09:24.539] [Server thread/INFO] [Dynmap/]: [Dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[29џэт2022 11:09:24.550] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'world'.
+[29џэт2022 11:09:24.552] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'minecraft_dimension'.
+[29џэт2022 11:09:24.553] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 2 maps of world 'DIM1'.
+[29џэт2022 11:09:24.554] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 2 maps of world 'DIM-1'.
+[29џэт2022 11:09:24.579] [Server thread/INFO] [Dynmap/]: [Dynmap] Register events
+[29џэт2022 11:09:24.582] [Server thread/INFO] [Dynmap/]: [Dynmap] Enabled
+[29џэт2022 11:10:30.342] [Dynmap Render Thread/INFO] [Dynmap/]: [Dynmap] Loading resource pack standard
+[29џэт2022 11:52:05.947] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[29џэт2022 11:52:05.949] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sto<--[HERE]
+[29џэт2022 11:52:07.338] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[29џэт2022 11:52:07.410] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
+[29џэт2022 11:52:07.410] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
+[29џэт2022 11:52:08.414] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
+[29џэт2022 11:52:08.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29џэт2022 11:52:08.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29џэт2022 11:52:08.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29џэт2022 11:52:08.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[29џэт2022 11:52:08.589] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29џэт2022 11:52:08.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[29џэт2022 11:52:08.591] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29џэт2022 11:52:08.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[29џэт2022 11:52:08.592] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29џэт2022 11:52:08.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/appliedenergistics2:spatial_storage
+[29џэт2022 11:52:08.593] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[29џэт2022 11:52:08.621] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29џэт2022 11:52:08.627] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29џэт2022 11:52:08.628] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29џэт2022 11:52:08.628] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
