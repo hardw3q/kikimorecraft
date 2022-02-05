@@ -1,0 +1,27 @@
+{
+  "immersiveengineering:recipes/immersiveengineering/crafting/survey_tools": {
+    "criteria": {
+      "has_hammer": "2022-01-30 16:52:23 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "hammer": "2022-01-30 16:52:23 +0000"
+    },
+    "done": true
+  },
+  "forestry:root": {
+    "criteria": {
+      "tick": "2022-01-30 16:50:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2022-01-30 16:50:25 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}
