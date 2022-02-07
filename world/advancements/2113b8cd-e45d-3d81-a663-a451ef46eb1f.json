@@ -1,7 +1,19 @@
 {
+  "tconstruct:tools/materials_and_you": {
+    "criteria": {
+      "crafted_book": "2022-02-06 19:23:49 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/survey_tools": {
     "criteria": {
       "has_hammer": "2022-01-30 16:52:23 +0000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2022-02-06 19:23:49 +0000"
     },
     "done": true
   },
