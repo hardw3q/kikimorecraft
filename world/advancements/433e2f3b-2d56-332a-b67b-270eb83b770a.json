@@ -41,6 +41,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_silver": {
+    "criteria": {
+      "has_ore_silver": "2022-02-11 20:27:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_iron_ingot": "2022-02-03 17:24:28 +0000"
@@ -109,9 +115,10 @@
   },
   "twilightforest:progress_naga": {
     "criteria": {
-      "kill_mob": "2022-02-06 14:51:27 +0000"
+      "kill_mob": "2022-02-06 14:51:27 +0000",
+      "scale": "2022-02-07 13:02:51 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/yellow_concrete_powder": {
     "criteria": {
@@ -131,6 +138,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2022-02-08 19:02:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
       "has_planks": "2022-02-03 17:07:23 +0000"
@@ -140,6 +153,18 @@
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2022-02-04 17:17:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2022-02-07 15:05:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2022-02-08 19:29:10 +0000"
     },
     "done": true
   },
@@ -539,6 +564,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/portable_cell": {
+    "criteria": {
+      "portable_cell": "2022-02-07 13:04:18 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2022-02-06 12:00:15 +0000"
@@ -695,6 +726,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2022-02-07 15:05:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_wool_from_string": {
     "criteria": {
       "has_string": "2022-02-03 17:24:28 +0000"
@@ -783,6 +820,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2022-02-07 15:05:13 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/wirecutter": {
     "criteria": {
       "has_iron_ingot": "2022-02-03 17:24:28 +0000"
@@ -804,6 +847,12 @@
   "minecraft:recipes/food/cooked_mutton_from_smoking": {
     "criteria": {
       "has_mutton": "2022-02-04 17:07:15 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/naga_armor_set": {
+    "criteria": {
+      "ingredient": "2022-02-07 13:02:51 +0000"
     },
     "done": true
   },
@@ -957,6 +1006,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2022-02-07 15:05:45 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/mossy_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-02-06 14:29:38 +0000"
@@ -978,6 +1033,12 @@
   "minecraft:recipes/combat/golden_chestplate": {
     "criteria": {
       "has_gold_ingot": "2022-02-03 17:24:18 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/compat/ie_shaders": {
+    "criteria": {
+      "tf_shader": "2022-02-07 13:03:02 +0000"
     },
     "done": true
   },
@@ -1059,6 +1120,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/general/common/materials/copper_ingot_smelting": {
+    "criteria": {
+      "has_item": "2022-02-11 20:29:48 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/gadgets/gadgets/frame/gold": {
     "criteria": {
       "has_item": "2022-02-06 10:14:22 +0000"
@@ -1074,6 +1141,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/speedloader": {
     "criteria": {
       "has_steel_ingot": "2022-02-06 18:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2022-02-07 15:05:37 +0000"
     },
     "done": true
   },
@@ -1212,6 +1285,12 @@
   "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
       "has_prismarine_crystals": "2022-02-06 19:10:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2022-02-07 15:05:37 +0000"
     },
     "done": true
   },
@@ -1497,9 +1576,22 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/jungle_window": {
+    "criteria": {
+      "has_ingredient": "2022-02-07 15:05:45 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_silver_from_blasting": {
+    "criteria": {
+      "has_ore_silver": "2022-02-11 20:27:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2022-02-03 17:09:44 +0000",
+      "minecraft:jungle_edge": "2022-02-07 14:58:21 +0000",
       "minecraft:forest": "2022-02-03 17:05:33 +0000",
       "minecraft:mountains": "2022-02-04 16:50:21 +0000",
       "minecraft:taiga": "2022-02-04 17:19:25 +0000",
@@ -1508,7 +1600,10 @@
       "minecraft:taiga_hills": "2022-02-04 18:48:29 +0000",
       "minecraft:desert": "2022-02-03 17:13:11 +0000",
       "minecraft:deep_frozen_ocean": "2022-02-06 18:42:51 +0000",
+      "minecraft:jungle": "2022-02-07 15:00:55 +0000",
       "minecraft:birch_forest": "2022-02-06 19:38:43 +0000",
+      "minecraft:jungle_hills": "2022-02-07 14:59:56 +0000",
+      "minecraft:bamboo_jungle": "2022-02-07 14:58:28 +0000",
       "minecraft:deep_lukewarm_ocean": "2022-02-04 18:07:04 +0000",
       "minecraft:savanna_plateau": "2022-02-03 18:00:24 +0000",
       "minecraft:beach": "2022-02-03 17:07:18 +0000",
@@ -1517,8 +1612,10 @@
       "minecraft:lukewarm_ocean": "2022-02-04 18:38:20 +0000",
       "minecraft:birch_forest_hills": "2022-02-06 19:40:56 +0000",
       "minecraft:wooded_mountains": "2022-02-04 17:16:10 +0000",
+      "minecraft:bamboo_jungle_hills": "2022-02-07 14:58:46 +0000",
       "minecraft:wooded_hills": "2022-02-04 18:04:02 +0000",
       "minecraft:stone_shore": "2022-02-06 18:27:51 +0000",
+      "minecraft:swamp": "2022-02-08 19:04:34 +0000",
       "minecraft:savanna": "2022-02-03 18:01:08 +0000",
       "minecraft:plains": "2022-02-03 17:02:20 +0000"
     },
@@ -1686,6 +1783,12 @@
     },
     "done": true
   },
+  "tconstruct:tools/tinker_tool": {
+    "criteria": {
+      "crafted_tool": "2022-02-11 20:10:55 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
       "has_kelp": "2022-02-03 18:35:50 +0000"
@@ -1753,6 +1856,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/steel_scaffolding_standard": {
     "criteria": {
       "has_steel_ingot": "2022-02-06 18:21:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2022-02-07 15:01:34 +0000"
     },
     "done": true
   },
@@ -1846,6 +1955,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2022-02-07 15:01:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2022-02-04 17:07:15 +0000"
@@ -1855,6 +1970,12 @@
   "minecraft:recipes/decorations/soul_torch": {
     "criteria": {
       "has_soul_sand": "2022-02-06 13:30:52 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:tools/modified": {
+    "criteria": {
+      "crafted_tool": "2022-02-11 20:10:55 +0000"
     },
     "done": true
   },
@@ -1891,6 +2012,12 @@
   "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-02-03 17:36:44 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/treasures/trophies": {
+    "criteria": {
+      "1": "2022-02-07 13:02:51 +0000"
     },
     "done": true
   },
@@ -2122,6 +2249,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2022-02-07 13:03:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2022-02-04 17:17:09 +0000"
@@ -2152,6 +2285,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/general/common/materials/copper_ingot_blasting": {
+    "criteria": {
+      "has_item": "2022-02-11 20:29:48 +0000"
+    },
+    "done": true
+  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chicken": "2022-02-04 16:06:33 +0000",
@@ -2167,6 +2306,7 @@
       "mutton": "2022-02-04 17:14:44 +0000",
       "bread": "2022-02-05 19:38:29 +0000",
       "rotten_flesh": "2022-02-03 17:08:54 +0000",
+      "melon_slice": "2022-02-07 15:05:20 +0000",
       "carrot": "2022-02-06 13:15:22 +0000"
     },
     "done": false
@@ -2189,6 +2329,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2022-02-07 15:05:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/respawn_anchor": {
     "criteria": {
       "has_obsidian": "2022-02-04 19:08:08 +0000"
@@ -2207,6 +2353,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/gadgets/gadgets/piggy_backpack": {
+    "criteria": {
+      "has_item": "2022-02-07 15:16:16 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2022-02-03 17:24:28 +0000"
@@ -2216,6 +2368,18 @@
   "tconstruct:recipes/tools/common/slime/lead": {
     "criteria": {
       "has_slime_ball": "2022-02-06 18:28:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2022-02-07 15:05:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2022-02-08 19:57:53 +0000"
     },
     "done": true
   },
@@ -2312,15 +2476,15 @@
     },
     "done": true
   },
-  "tconstruct:recipes/tconstruct/gadgets/gadgets/slimesling/earth": {
-    "criteria": {
-      "has_item": "2022-02-06 18:28:53 +0000"
-    },
-    "done": true
-  },
   "immersiveengineering:recipes/immersiveengineering/crafting/earmuffs": {
     "criteria": {
       "has_iron_rod": "2022-02-06 18:15:34 +0000"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/gadgets/gadgets/slimesling/earth": {
+    "criteria": {
+      "has_item": "2022-02-06 18:28:53 +0000"
     },
     "done": true
   },
@@ -2435,6 +2599,12 @@
   "create:recipes/create.palettes/overgrown_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-02-06 12:59:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2022-02-08 19:29:10 +0000"
     },
     "done": true
   },
@@ -2600,6 +2770,12 @@
     },
     "done": true
   },
+  "tconstruct:smeltery/abilities": {
+    "criteria": {
+      "luck": "2022-02-11 20:10:55 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2022-02-03 18:07:48 +0000"
@@ -2663,6 +2839,12 @@
   "create:recipes/create.palettes/smelting/dolomite": {
     "criteria": {
       "has_item": "2022-02-06 14:29:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2022-02-07 13:03:32 +0000"
     },
     "done": true
   },
@@ -2810,6 +2992,12 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_aluminum_from_blasting": {
+    "criteria": {
+      "has_ore_aluminum": "2022-02-11 20:41:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2022-02-03 17:30:23 +0000"
@@ -2831,6 +3019,12 @@
   "minecraft:recipes/decorations/slime_block": {
     "criteria": {
       "has_slime_ball": "2022-02-06 18:28:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jack_o_lantern": {
+    "criteria": {
+      "has_carved_pumpkin": "2022-02-08 19:42:28 +0000"
     },
     "done": true
   },
@@ -2951,6 +3145,12 @@
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2022-02-03 17:24:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2022-02-08 19:29:10 +0000"
     },
     "done": true
   },
@@ -3218,6 +3418,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_jungle_planks": "2022-02-07 15:05:45 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/wire_steel": {
     "criteria": {
       "has_steel_ingot": "2022-02-06 18:21:19 +0000"
@@ -3368,6 +3574,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2022-02-07 15:05:45 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/plate_aluminum_hammering": {
     "criteria": {
       "has_aluminum_ingot": "2022-02-06 17:59:10 +0000"
@@ -3452,6 +3664,12 @@
     },
     "done": true
   },
+  "twilightforest:alt/treasures/armors": {
+    "criteria": {
+      "1": "2022-02-07 13:02:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef": {
     "criteria": {
       "has_beef": "2022-02-03 18:03:12 +0000"
@@ -3467,6 +3685,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2022-02-03 17:24:28 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/immersiveengineering/crafting/ingot_aluminum": {
+    "criteria": {
+      "has_ore_aluminum": "2022-02-11 20:41:37 +0000"
     },
     "done": true
   },
@@ -3536,6 +3760,12 @@
     },
     "done": true
   },
+  "tconstruct:smeltery/tool_forge": {
+    "criteria": {
+      "cleaver": "2022-02-11 20:10:55 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
       "in_water": "2022-02-03 17:05:42 +0000"
@@ -3557,6 +3787,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/powerpack": {
     "criteria": {
       "has_leather": "2022-02-03 18:03:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2022-02-07 15:05:45 +0000"
     },
     "done": true
   },
@@ -3608,6 +3844,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2022-02-08 19:02:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/andesite_wall_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-02-03 17:36:44 +0000"
@@ -3617,6 +3859,12 @@
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2022-02-04 17:17:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2022-02-07 15:05:45 +0000"
     },
     "done": true
   },
@@ -3653,6 +3901,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2022-02-06 18:00:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2022-02-07 15:05:45 +0000"
     },
     "done": true
   },
@@ -3728,6 +3982,12 @@
     },
     "done": true
   },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "kill_naga": "2022-02-07 13:02:51 +0000"
+    },
+    "done": false
+  },
   "twilightforest:alt/biomes/twilight_highlands": {
     "criteria": {
       "discover": "2022-02-06 14:51:13 +0000"
@@ -3749,6 +4009,12 @@
   "create:recipes/create.palettes/diorite_bricks_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-02-06 14:29:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2022-02-07 15:05:13 +0000"
     },
     "done": true
   },
