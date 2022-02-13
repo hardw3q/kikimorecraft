@@ -269,6 +269,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_green_dye": "2022-02-12 21:36:42 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/fancy_andesite_bricks_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2022-02-07 12:07:22 +0000"
@@ -653,6 +659,12 @@
     },
     "done": true
   },
+  "appliedenergistics2:main/interface": {
+    "criteria": {
+      "certus": "2022-02-12 18:23:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_stairs": {
     "criteria": {
       "has_granite": "2022-01-28 19:40:05 +0000"
@@ -662,6 +674,12 @@
   "create:recipes/create.base/crafting/kinetics/mechanical_drill": {
     "criteria": {
       "has_item": "2022-02-06 10:51:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_green_dye": "2022-02-12 21:36:42 +0000"
     },
     "done": true
   },
@@ -2001,6 +2019,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/green_carpet_from_white_carpet": {
+    "criteria": {
+      "has_green_dye": "2022-02-12 21:36:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/snow": {
     "criteria": {
       "has_snowball": "2022-01-30 13:58:30 +0000"
@@ -2424,6 +2448,12 @@
   "bigreactors:recipes/bigreactors.general/blasting/yellorium_from_ore": {
     "criteria": {
       "has_item": "2022-01-28 20:23:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-02-12 23:30:26 +0000"
     },
     "done": true
   },
@@ -3700,6 +3730,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_tulip": {
+    "criteria": {
+      "has_red_flower": "2022-02-12 23:06:13 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-01-28 19:40:19 +0000"
@@ -4462,6 +4498,12 @@
     },
     "done": true
   },
+  "tconstruct:smeltery/structure": {
+    "criteria": {
+      "open_smeltery": "2022-02-12 19:03:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/loom": {
     "criteria": {
       "has_string": "2022-01-29 15:50:45 +0000"
@@ -4969,6 +5011,12 @@
   "appliedenergistics2:recipes/appliedenergistics2/shaped/slabs/smooth_sky_stone_block": {
     "criteria": {
       "has_smooth_sky_stone_block": "2022-02-01 06:49:15 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/ioport": {
+    "criteria": {
+      "certus": "2022-02-12 18:21:56 +0000"
     },
     "done": true
   },
