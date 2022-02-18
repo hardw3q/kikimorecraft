@@ -1635,6 +1635,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2022-02-13 18:39:51 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/smooth_sandstone": {
     "criteria": {
       "has_sandstone": "2022-01-29 18:51:07 +0000"
@@ -3653,13 +3659,16 @@
       "minecraft:taiga": "2022-02-08 19:57:54 +0000",
       "minecraft:desert_hills": "2022-02-03 17:42:50 +0000",
       "minecraft:deep_cold_ocean": "2022-02-03 17:40:25 +0000",
+      "minecraft:snowy_tundra": "2022-02-14 17:49:35 +0000",
       "minecraft:taiga_hills": "2022-02-11 21:01:26 +0000",
       "minecraft:desert": "2022-02-03 17:42:17 +0000",
       "minecraft:birch_forest": "2022-01-31 21:20:24 +0000",
+      "minecraft:deep_lukewarm_ocean": "2022-02-14 17:49:44 +0000",
       "minecraft:savanna_plateau": "2022-01-30 13:55:01 +0000",
       "minecraft:beach": "2022-01-29 09:40:10 +0000",
       "minecraft:dark_forest": "2022-01-28 19:43:08 +0000",
       "minecraft:river": "2022-01-28 20:04:19 +0000",
+      "minecraft:lukewarm_ocean": "2022-02-14 17:49:37 +0000",
       "minecraft:birch_forest_hills": "2022-02-05 22:22:22 +0000",
       "minecraft:wooded_mountains": "2022-01-31 21:30:34 +0000",
       "minecraft:wooded_hills": "2022-01-28 20:17:42 +0000",
@@ -4747,6 +4756,12 @@
   "immersiveengineering:main/craft_revolver": {
     "criteria": {
       "revolver": "2022-02-06 19:08:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2022-02-13 18:39:51 +0000"
     },
     "done": true
   },

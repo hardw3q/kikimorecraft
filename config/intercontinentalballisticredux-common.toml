@@ -1,0 +1,101 @@
+#
+#Defines the maximum number of blast manager threads that can be simultaneously active per 
+#level/dimension. SETTING THIS VALUE TOO HIGH MAY CAUSE ENOUGH LAG TO COMPLETELY LOCK UP YOUR
+#COMPUTER. YOU HAVE BEEN WARNED!
+#Range: > 1
+maxBlastManagerThreadCountPerLevel = 4
+#
+#Defines the amount of time, in game ticks (20 ticks = 1 second), that a missile launched from
+#a handheld launcher or a cruise launcher (rather than from a launcher platform) can be in flight
+#before automatically detonating.
+#Range: > 0
+maxNumTicksAliveForLinearMissiles = 100
+#
+#Enables logging to console of missile launches from handheld Rocket Launchers.
+doLogMissilePathsHandheld = true
+#
+#Enables an easter egg where all explosives placed by "SlushierZeus69" or "dig_dug__"
+#have the "unstable = true" variant of the BlockState, causing them to automatically ignite
+#when broken rather than drop as an item.
+enableEasterEggForRedcoats = true
+#
+#Defines the percentage, as a decimal (0.0 = 0%, 1.0 = 100%), that a block within the "fuzzy"
+#section within the radius of an antimatter blast will be destroyed in the blast.
+#Range: 0.0 ~ 1.0
+antimatterFuzzynessPercentage = 0.4
+#
+#The breaching blast creates a string of explosions in the direction towards which it is
+#ignited. This value defines the maximum depth, in blocks, that said string can reach. The
+#actual depth for a given blast may be lower, depending on the blast resistance of the blocks
+#in its way.
+#Range: > 1
+blastDepthBreaching = 7
+#
+#Defines the maximum radius of an Endothermic Blast.
+#Range: 0.0 ~ 3.4028234663852886E38
+blastRadiusEndothermic = 12.0
+#
+#Defines the maximum radius of an Exothermic Blast.
+#Range: 0.0 ~ 3.4028234663852886E38
+blastRadiusExothermic = 12.0
+#
+#Defines the maximum radius of an Hypersonic Blast.
+#Range: 0.0 ~ 3.4028234663852886E38
+blastRadiusHypersonic = 13.0
+#
+#Defines the maximum radius of an Nuclear Blast.
+#Range: 0.0 ~ 3.4028234663852886E38
+blastRadiusNuclear = 30.0
+#
+#Defines the maximum radius of an Sonic Blast.
+#Range: 0.0 ~ 3.4028234663852886E38
+blastRadiusSonic = 9.0
+#
+#Defines the 'size' parameter of Copper Ore vein generation.
+#Range: > 0
+oreCopperSize = 9
+#
+#Defines the 'range' parameter of Copper Ore vein generation.
+#Range: > 0
+oreCopperRange = 64
+#
+#Defines the 'count' parameter of Copper Ore vein generation.
+#Range: > 0
+oreCopperCount = 20
+#
+#Defines the 'size' parameter of Sulfur Ore vein generation.
+#Range: > 0
+oreSulfurSize = 16
+#
+#Defines the 'range' parameter of Sulfur Ore vein generation.
+#Range: > 0
+oreSulfurRange = 11
+#
+#Defines the 'count' parameter of Sulfur Ore vein generation.
+#Range: > 0
+oreSulfurCount = 20
+#
+#Defines the 'size' parameter of Tin Ore vein generation.
+#Range: > 0
+oreTinSize = 6
+#
+#Defines the 'range' parameter of Tin Ore vein generation.
+#Range: > 0
+oreTinRange = 48
+#
+#Defines the 'count' parameter of Tin Ore vein generation.
+#Range: > 0
+oreTinCount = 20
+#
+#Defines the 'size' parameter of Uranium Ore vein generation.
+#Range: > 0
+oreUraniumSize = 8
+#
+#Defines the 'range' parameter of Uranium Ore vein generation.
+#Range: > 0
+oreUraniumRange = 16
+#
+#Defines the 'count' parameter of Uranium Ore vein generation.
+#Range: > 0
+oreUraniumCount = 1
+

@@ -132,6 +132,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/dolomite_cobblestone_stairs": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2022-02-14 13:55:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2022-02-03 18:03:01 +0000"
@@ -630,6 +636,12 @@
     },
     "done": true
   },
+  "create:recipes/create.base/crafting/kinetics/controller_rail": {
+    "criteria": {
+      "has_item": "2022-02-14 14:11:13 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/coil_lv": {
     "criteria": {
       "has_iron_ingot": "2022-02-03 17:24:28 +0000"
@@ -910,6 +922,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2022-02-14 13:03:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2022-02-03 17:07:23 +0000"
@@ -919,6 +937,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2022-02-04 19:22:02 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/bigreactors.general/smelting/yellorium_from_ore": {
+    "criteria": {
+      "has_item": "2022-02-14 14:07:32 +0000"
     },
     "done": true
   },
@@ -1243,6 +1267,12 @@
   "create:recipes/create.base/crafting/kinetics/cyan_seat": {
     "criteria": {
       "has_wool": "2022-02-06 11:19:04 +0000"
+    },
+    "done": true
+  },
+  "boss_tools:moon_advancement": {
+    "criteria": {
+      "moon_advancement": "2022-02-14 12:51:13 +0000"
     },
     "done": true
   },
@@ -1576,6 +1606,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/dolomite": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2022-02-14 13:55:59 +0000"
+    },
+    "done": true
+  },
   "create:recipes/create.palettes/jungle_window": {
     "criteria": {
       "has_ingredient": "2022-02-07 15:05:45 +0000"
@@ -1648,6 +1684,12 @@
   "create:recipes/create.palettes/paved_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2022-02-06 14:29:38 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/weathered_limestone": {
+    "criteria": {
+      "has_weathered_limestone_cobblestone": "2022-02-14 13:56:07 +0000"
     },
     "done": true
   },
@@ -1735,6 +1777,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/dolomite_cobblestone_wall": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2022-02-14 13:55:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
     "criteria": {
       "has_cobblestone": "2022-02-03 17:36:44 +0000"
@@ -1801,6 +1849,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis": "2022-02-14 13:03:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
       "has_acacia_planks": "2022-02-03 18:44:00 +0000"
@@ -1819,6 +1873,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/weathered_limestone_cobblestone_slab": {
+    "criteria": {
+      "has_weathered_limestone_cobblestone": "2022-02-14 13:56:07 +0000"
+    },
+    "done": true
+  },
   "immersiveengineering:recipes/immersiveengineering/crafting/drillhead_iron": {
     "criteria": {
       "has_iron_ingot": "2022-02-03 17:24:28 +0000"
@@ -1834,6 +1894,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/plate_uranium_hammering": {
     "criteria": {
       "has_uranium_ingot": "2022-02-03 18:50:55 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/dolomite_cobblestone_wall_from_dolomite_cobblestone_stonecutting": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2022-02-14 13:55:59 +0000"
     },
     "done": true
   },
@@ -1988,6 +2054,12 @@
   "immersiveengineering:recipes/immersiveengineering/crafting/alu_wallmount": {
     "criteria": {
       "has_aluminum_ingot": "2022-02-06 17:59:10 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/weathered_limestone_cobblestone_slab_from_weathered_limestone_cobblestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone_cobblestone": "2022-02-14 13:56:07 +0000"
     },
     "done": true
   },
@@ -2207,6 +2279,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/dolomite_cobblestone_stairs_from_dolomite_cobblestone_stonecutting": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2022-02-14 13:55:59 +0000"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/world/world/wood/greenheart/trapdoor": {
     "criteria": {
       "has_planks": "2022-02-06 18:51:10 +0000"
@@ -2234,6 +2312,12 @@
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2022-02-04 15:41:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/weathered_limestone_cobblestone_wall": {
+    "criteria": {
+      "has_weathered_limestone_cobblestone": "2022-02-14 13:56:07 +0000"
     },
     "done": true
   },
@@ -2770,6 +2854,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/weathered_limestone_cobblestone_stairs": {
+    "criteria": {
+      "has_weathered_limestone_cobblestone": "2022-02-14 13:56:07 +0000"
+    },
+    "done": true
+  },
   "tconstruct:smeltery/abilities": {
     "criteria": {
       "luck": "2022-02-11 20:10:55 +0000"
@@ -3040,6 +3130,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/weathered_limestone_cobblestone_stairs_from_weathered_limestone_cobblestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone_cobblestone": "2022-02-14 13:56:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_nuggets": {
     "criteria": {
       "has_gold_nugget": "2022-02-03 17:42:09 +0000"
@@ -3157,6 +3253,12 @@
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
       "has_stick": "2022-02-03 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/smelting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2022-02-14 13:51:44 +0000"
     },
     "done": true
   },
@@ -3712,6 +3814,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/dolomite_cobblestone_slab_from_dolomite_cobblestone_stonecutting": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2022-02-14 13:55:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
       "has_nether_brick": "2022-02-06 13:34:44 +0000"
@@ -3757,6 +3865,12 @@
   "tconstruct:recipes/tconstruct/general/tools/modifiers/silky_cloth": {
     "criteria": {
       "has_item": "2022-02-06 13:16:34 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/bigreactors.general/blasting/yellorium_from_ore": {
+    "criteria": {
+      "has_item": "2022-02-14 14:07:32 +0000"
     },
     "done": true
   },
@@ -3868,6 +3982,12 @@
     },
     "done": true
   },
+  "create:recipes/create.palettes/dolomite_cobblestone_slab": {
+    "criteria": {
+      "has_dolomite_cobblestone": "2022-02-14 13:55:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
       "has_nether_brick": "2022-02-06 13:34:44 +0000"
@@ -3877,6 +3997,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2022-02-04 17:24:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.base/blasting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2022-02-14 13:51:44 +0000"
     },
     "done": true
   },
@@ -4021,6 +4147,12 @@
   "create:recipes/create.base/crafting/kinetics/light_gray_seat": {
     "criteria": {
       "has_wool": "2022-02-06 11:19:04 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/weathered_limestone_cobblestone_wall_from_weathered_limestone_cobblestone_stonecutting": {
+    "criteria": {
+      "has_weathered_limestone_cobblestone": "2022-02-14 13:56:07 +0000"
     },
     "done": true
   },
