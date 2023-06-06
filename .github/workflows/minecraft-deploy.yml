@@ -9,7 +9,7 @@ on:
 env:
   SERVER_HOST: 37.18.121.28
   SERVER_USER: root
-  SERVER_PATH: /root/backend
+  SERVER_PATH: /root/RLC
 
 jobs:
   deployment:
